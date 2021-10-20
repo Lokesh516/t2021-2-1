@@ -8,8 +8,11 @@ class  Odd
 		int a =sc.nextInt();
 		for(j=1;j<=a;j++)
 		{
-		 System.out.println(i);
-		   i=i+2;
+		 if(j==1)
+		   System.out.print(i);
+		  else
+	            System.out.print(","+i);
+		 i=i+2;
 		}
 	}
 }
